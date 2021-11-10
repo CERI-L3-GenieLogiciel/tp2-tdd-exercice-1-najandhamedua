@@ -20,4 +20,11 @@ public class FizzBuzzTest {
         FizzBuzz fb = new FizzBuzz();
         assertEquals("Fizz", fb.getResult(3));
     }
+
+
+    @Test
+    void shouldReturn4When4() {
+        FizzBuzz fb = new FizzBuzz();
+        assertEquals("4", fb.getResult(4));
+    }
 }
